@@ -1,0 +1,113 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0A4D68 0%, #088395 100%);
+    padding: 20px;
+}
+
+.login-card {
+    background: white;
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 100%;
+    max-width: 440px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease-out;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #0A4D68, #05BFDB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+}
+
+.tagline {
+    color: #6C757D;
+    font-size: 14px;
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #2C3E50;
+    font-size: 14px;
+}
+
+.form-group input {
+    padding: 12px 16px;
+    border: 2px solid #E9ECEF;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.25s ease;
+}
+
+.form-group input:focus {
+    border-color: #05BFDB;
+    box-shadow: 0 0 0 4px rgba(5, 191, 219, 0.1);
+    outline: none;
+}
+
+.error-message {
+    background: #FEE;
+    color: #DC3545;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    border-left: 4px solid #DC3545;
+    animation: slideUp 0.3s ease-out;
+}
+
+.login-btn {
+    margin-top: 8px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.login-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.login-footer {
+    margin-top: 32px;
+    text-align: center;
+    color: #ADB5BD;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 32px 24px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+}

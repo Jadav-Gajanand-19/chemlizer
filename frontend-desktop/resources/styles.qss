@@ -1,0 +1,220 @@
+/* ChemLizer Desktop - QSS Stylesheet */
+/* ChemLizer Color Palette */
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Main Window */
+QMainWindow {
+    background-color: #F8F9FA;
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+QTabBar::tab {
+    background-color: #E9ECEF;
+    color: #6C757D;
+    padding: 12px 24px;
+    margin-right: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+QTabBar::tab:selected {
+    background-color: white;
+    color: #0A4D68;
+    border-bottom: 3px solid #05BFDB;
+}
+
+QTabBar::tab:hover {
+    background-color: #F8FDFF;
+    color: #0A4D68;
+}
+
+/* Buttons */
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #0A4D68, stop:1 #088395);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #088395, stop:1 #05BFDB);
+}
+
+QPushButton:pressed {
+    background: #0A4D68;
+}
+
+QPushButton:disabled {
+    background: #CED4DA;
+    color: #6C757D;
+}
+
+/* Secondary Button */
+QPushButton[class="secondary"] {
+    background: #05BFDB;
+}
+
+QPushButton[class="secondary"]:hover {
+    background: #04A5C7;
+}
+
+/* Input Fields */
+QLineEdit {
+    border: 2px solid #E9ECEF;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+    background-color: white;
+}
+
+QLineEdit:focus {
+    border-color: #05BFDB;
+}
+
+/* Table Widget */
+QTableWidget {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    gridline-color: #F1F3F5;
+}
+
+QTableWidget::item {
+    padding: 12px;
+    border-bottom: 1px solid #F1F3F5;
+}
+
+QTableWidget::item:selected {
+    background-color: #E7F5FF;
+    color: #0A4D68;
+}
+
+QTableWidget::item:hover {
+    background-color: #F8FDFF;
+}
+
+QHeaderView::section {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #0A4D68, stop:1 #088395);
+    color: white;
+    padding: 12px;
+    border: none;
+    font-weight: 600;
+}
+
+/* Labels */
+QLabel {
+    color: #2C3E50;
+    font-size: 14px;
+}
+
+QLabel[class="title"] {
+    color: #0A4D68;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+QLabel[class="subtitle"] {
+    color: #6C757D;
+    font-size: 13px;
+}
+
+/* Group Box */
+QGroupBox {
+    border: 2px solid #E9ECEF;
+    border-radius: 12px;
+    margin-top: 12px;
+    padding-top: 20px;
+    background-color: white;
+    font-weight: 600;
+    color: #0A4D68;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 4px 12px;
+    background-color: #F8F9FA;
+    border-radius: 6px;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: none;
+    border-radius: 6px;
+    background-color: #E9ECEF;
+    text-align: center;
+    height: 24px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #088395, stop:1 #05BFDB);
+    border-radius: 6px;
+}
+
+/* Scroll Bar */
+QScrollBar:vertical {
+    border: none;
+    background: #F1F3F5;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #088395;
+    border-radius: 6px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #0A4D68;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* Message Box */
+QMessageBox {
+    background-color: white;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: white;
+    color: #6C757D;
+    border-top: 1px solid #E9ECEF;
+}
+
+/* Text Edit */
+QTextEdit {
+    border: 2px solid #E9ECEF;
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px;
+}
+
+QTextEdit:focus {
+    border-color: #05BFDB;
+}

@@ -1,0 +1,135 @@
+.data-table-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.table-header h2 {
+    color: var(--color-primary);
+    font-size: 28px;
+    margin: 0;
+}
+
+.record-count {
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.table-wrapper {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table thead {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    color: white;
+}
+
+.data-table th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.data-table th:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.data-table tbody tr {
+    border-bottom: 1px solid #F1F3F5;
+    transition: all 0.25s ease;
+}
+
+.data-table tbody tr:hover {
+    background: #F8FDFF;
+    transform: scale(1.005);
+    box-shadow: 0 2px 8px rgba(5, 191, 219, 0.1);
+}
+
+.data-table td {
+    padding: 16px;
+    color: var(--color-text);
+}
+
+.equipment-name {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.type-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: linear-gradient(135deg, #E7F5FF, #D0EBFF);
+    color: var(--color-secondary);
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.numeric {
+    font-family: 'Courier New', monospace;
+    color: var(--color-text-light);
+    font-weight: 500;
+}
+
+.skeleton-table {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skeleton-row {
+    height: 60px;
+    border-radius: 8px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    border-radius: 12px;
+    color: var(--color-text-light);
+}
+
+.empty-state p {
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .table-wrapper {
+        overflow-x: auto;
+    }
+
+    .data-table {
+        min-width: 600px;
+    }
+
+    .table-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
