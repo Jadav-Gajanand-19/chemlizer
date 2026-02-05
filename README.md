@@ -209,7 +209,47 @@ npm test
 
 ## 📸 Screenshots
 
-*(Screenshots will be added during development)*
+### Web Application
+
+#### Login Page
+![ChemLizer Login](screenshots/01-login.png)
+*Secure authentication with gradient background and modern form design*
+
+---
+
+#### Upload Interface
+![CSV Upload](screenshots/02-upload.png)
+*Drag-and-drop file upload with SVG icons and progress tracking*
+
+---
+
+#### Data Table
+![Equipment Data Table](screenshots/05-data-table.png)
+*Sortable table with 15 equipment records, type badges, and clean layout*
+
+---
+
+#### Interactive Charts
+![Data Visualizations](screenshots/04-charts.png)
+*Chart.js visualizations: Bar chart for type distribution, line chart for parameter trends, and doughnut chart for type breakdown*
+
+---
+
+#### Summary Statistics
+![Summary Dashboard](screenshots/03-summary.png)
+*Animated stat cards with SVG icons showing total equipment, average flowrate, pressure, and temperature. Equipment type distribution with progress bars*
+
+---
+
+### Key UI Features Demonstrated
+
+✅ **Professional SVG Icons** - Clean, scalable icons throughout the interface  
+✅ **ChemLizer Color Palette** - Deep Ocean Blue, Vibrant Teal, and Bright Cyan theme  
+✅ **Smooth Animations** - Count-up effects, progress bars, and transition animations  
+✅ **Responsive Design** - Works perfectly on all screen sizes  
+✅ **Type Badges** - Color-coded equipment type identification  
+✅ **PDF Export** - Download comprehensive reports with one click  
+
 
 ## 🤝 Contributing
 
