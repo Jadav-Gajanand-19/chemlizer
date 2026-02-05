@@ -273,6 +273,20 @@ npm test
 
 ---
 
+### PDF Report Generation
+
+#### PDF Download Success Dialog
+![PDF Download Success](screenshots/12-pdf-download-success.png)
+*Success notification showing PDF report saved with file path*
+
+---
+
+#### Generated PDF Report
+![Generated PDF Report](screenshots/13-pdf-report-generated.png)
+*Complete PDF report with ChemLizer branding, summary statistics, and detailed equipment data table in professional format*
+
+---
+
 ### Key UI Features Demonstrated
 
 ✅ **Professional SVG Icons** - Clean, scalable icons throughout the interface  
