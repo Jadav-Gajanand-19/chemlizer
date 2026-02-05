@@ -241,6 +241,38 @@ npm test
 
 ---
 
+### Desktop Application (PyQt5)
+
+#### Desktop Login Dialog
+![Desktop Login](screenshots/07-desktop-login.png)
+*Native PyQt5 login dialog with QSS styling matching the ChemLizer theme*
+
+---
+
+#### Desktop Upload Interface
+![Desktop Upload](screenshots/06-desktop-upload.png)
+*File picker-based upload with styled buttons and format information*
+
+---
+
+#### Desktop Data Table
+![Desktop Data Table](screenshots/09-desktop-data-table.png)
+*Native table widget with gradient header, alternating row colors, and 15 equipment records*
+
+---
+
+#### Desktop Charts (Matplotlib)
+![Desktop Charts](screenshots/10-desktop-charts.png)
+*Matplotlib visualizations: Bar chart for type distribution, pie chart breakdown, and average parameters chart*
+
+---
+
+#### Desktop Summary
+![Desktop Summary](screenshots/08-desktop-summary.png)
+*Summary statistics with grouped boxes showing overall statistics and equipment type distribution*
+
+---
+
 ### Key UI Features Demonstrated
 
 ✅ **Professional SVG Icons** - Clean, scalable icons throughout the interface  
